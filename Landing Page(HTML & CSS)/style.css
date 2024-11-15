@@ -103,7 +103,7 @@ html, body {
 
 .nav {
     position: absolute;
-    width: 310px;
+    width: 310px;      
     /* background-color: red; */
     display: flex;
     flex-direction: row;
