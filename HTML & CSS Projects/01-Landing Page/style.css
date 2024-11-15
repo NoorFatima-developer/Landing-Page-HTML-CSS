@@ -34,7 +34,7 @@ html, body {
 .overlay {
     height: 100%;
     width: 100%;
-    background-color: hsla(345, 17%, 43%, 0.253);
+    background-color: hsla(345, 17%, 43%, 0.151);
 }
 
 #part3 {
@@ -55,10 +55,43 @@ html, body {
 
 .text-div>h1 {
     font-size: 95px;
-    font-family: monument;
+    font-family: gilroy;
     letter-spacing: 8px;
     font-weight: 800;
     line-height: 78px;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    background: url(https://plus.unsplash.com/premium_photo-1668896124017-4f873d3e0605?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.overlay-in {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(345, 17%, 43%, 0.233);
+}
+
+#vertical-text {
+    position: absolute;
+    width: 100%;
+    background-color: red;
+}
+
+#vertical-text>h1 {
+    font-size: 80px;
+    font-weight: 900;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: #fff;
 }
